@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(MainActivity.this, RankActivity.class);
                 intent.putExtra("intents",intents);
-                intent.putExtra("partida",partida++);
+                intent.putExtra("nom","Partida "+ Integer.toString(partida++) );
                 startActivity(intent);
             }
         });

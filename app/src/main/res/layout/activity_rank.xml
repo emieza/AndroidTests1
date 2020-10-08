@@ -39,6 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TableLayout
+        android:id="@+id/tableRank"
         android:layout_width="360dp"
         android:layout_height="422dp"
         app:layout_constraintBottom_toTopOf="@+id/rankText"
@@ -47,7 +48,7 @@
 
         <TableRow
             android:layout_width="363dp"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/textView3"
@@ -70,7 +71,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textView7"
